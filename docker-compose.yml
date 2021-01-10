@@ -1,0 +1,10 @@
+version: "2.1"
+
+services:
+
+  influxdb:
+    hostname: influxdb
+    image: quay.io/influxdb/influxdb:v2.0.3
+    container_name: influxdb
+    ports:
+        - 8099:8086
